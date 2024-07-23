@@ -98,7 +98,9 @@ The model-building process consists of five stages:
    - **Constraints**: Stock portion ≥ 50%, Bond ETF portion ≥ 10%.
    - **Portfolio Value**: Assumed starting value of $10 million.
 
-
+5. **Performance Analysis**:
+   - **Year-End Performance**: Analyzed P/L as of December 31, 2023, compared to S&P 500 and TSX 60.
+     
 ![image](https://github.com/user-attachments/assets/e8cac23c-89d6-4f37-8705-d2e232fc9d76)
 ![image](https://github.com/user-attachments/assets/da89b773-f9e6-442a-9473-7945a4ec6f44)
 
@@ -106,10 +108,6 @@ The model-building process consists of five stages:
 
 
 ![image](https://github.com/user-attachments/assets/be5d6d75-0dba-491c-ba0a-ea8defac3a97)
-
-
-5. **Performance Analysis**:
-   - **Year-End Performance**: Analyzed P/L as of December 31, 2023, compared to S&P 500 and TSX 60.
 
 ## Summary
 
