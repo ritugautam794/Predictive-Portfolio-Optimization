@@ -7,6 +7,9 @@ This project aims to construct and manage a multi-asset portfolio using advanced
 
 ![image](https://github.com/user-attachments/assets/470f4e52-e6a8-4f71-a3d2-d8c0cda25aa2)
 
+![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
+
+
 ![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
 ![image](https://github.com/user-attachments/assets/3575aa32-a09e-4dbd-b8bc-83128a478980)
