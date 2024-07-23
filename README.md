@@ -7,7 +7,7 @@ This project aims to construct and manage a multi-asset portfolio using advanced
 
 Streamlining Data Sources to Build One Comprehensive Dataset for ML Model Input
 
-## Exploring Data Sources
+Exploring Data Sources
 In the quest to construct a robust predictive model, a critical first step is to gather and integrate diverse datasets that can offer insights into stock performance. Our approach involves collecting a variety of financial and market data from reliable sources such as Yahoo Finance. The key data files include:
 
 1. Company Financial Ratios: These ratios, such as price-to-earnings (P/E), return on equity (ROE), and debt-to-equity (D/E), provide insight into a company's financial health and operational efficiency.
