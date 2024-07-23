@@ -77,6 +77,25 @@ This systematic approach ensures a thorough and effective development of a predi
 
 ![image](https://github.com/user-attachments/assets/8b876d02-f531-43d0-844f-ef5065c8ff1a)
 
+## Predictive Model Performance and Feature Importance Analysis
+This analysis provides a comprehensive overview of the predictive model's performance and key feature importance across various time periods. Below is a detailed breakdown:
+
+1. Model Performance Over Time: 
+The analysis examines the model’s performance across six 3-year periods from 2003 to 2021. Two key performance metrics are evaluated for each period:
+
+a. AUC-ROC Score: This metric ranges from 0.405 to 0.703, with the highest score recorded in the most recent period (2018-2021). The AUC-ROC score measures the model’s ability to distinguish between positive and negative classes, with higher scores indicating better performance.
+
+b. F1 Score: This score ranges from 0.081 to 0.394. The F1 Score is a measure of the model’s accuracy in classifying the positive class, considering both precision and recall. There is no consistent correlation between the AUC-ROC score and the F1 Score, indicating variations in the model’s performance across different metrics.
+
+Overall, the model's performance shows significant fluctuations over time, with the best AUC-ROC score achieved in the most recent period and the worst during 2012-2015.
+
+2. Feature Importance Analysis
+A bar chart displays the top 30 features ranked by their aggregate importance across all six time segments. Key findings include:
+Top Features: The most influential features identified are: return,past_return_12m, pb (Price-to-Book ratio),bm (Book-to-Market ratio), pe (Price-to-Earnings ratio)
+Feature Importance Trend: The chart illustrates a decreasing trend in feature importance, with the top features showing significantly higher importance compared to those lower in the ranking.
+
+3. Overall Insights
+The analysis reveals that AUC-ROC scores vary between 0.42 and 0.70 across the six time segments, indicating considerable variability in the model’s predictive accuracy over time. This fluctuation suggests that the model’s effectiveness in predicting "forward 3-month returns" may be influenced by changing market conditions or other temporal factors.
 
 ![image](https://github.com/user-attachments/assets/61ac1fda-dbd7-4ea7-988a-b35eebd3f3db)
 
