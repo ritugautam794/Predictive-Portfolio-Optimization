@@ -60,6 +60,21 @@ Through these data cleaning and preprocessing steps, we transformed our raw data
 
 ![image](https://github.com/user-attachments/assets/0c8d50af-5ebf-4199-b162-adca5273745f)
 
+## Model Building Journey
+The diagram below outlines the structured approach undertaken to develop a predictive model for financial performance, specifically for stock selection. The process is divided into five key stages:
+
+1. abelling the Target Variable: The journey begins by defining the target variable, which is based on forward 3-month returns. Percentile thresholds are established, with the upper (70th percentile) and lower (30th percentile) thresholds calculated for each month’s returns. These thresholds are crucial for categorizing stocks into performance brackets.
+
+2. Deciding the Rolling Window: A series of rolling windows with various lookback periods (3, 6, 12, 18, 24, 36, and 48 months) were tested to determine the optimal time frame for model performance. The current best-performing window is a combination of 6-month and 36-month lookbacks, achieving a cross-validated AUC score of 76.2%. This stage is critical for identifying the most effective historical data range for accurate predictions.
+
+3. Moving-Window Feature Analysis: Using the final model from the previous step, we perform a moving-window analysis by dividing the dataset into equal 3-year slices. This analysis helps evaluate the model’s performance across different time periods and ensures that the model remains robust and relevant over time.
+
+4. Modelling Pipeline: Each 3-year slice is subjected to min-max scaling based on monthly and lookback window data to normalize the features. The XGBoost algorithm is then applied to predict forward 3-month returns. Enhanced performance metrics were observed when the model was scaled on the lookback window, demonstrating the importance of proper feature scaling.
+
+5. Observing Best & Worst Performers: Two distinct models are created to classify stocks into best and worst performers. With a classification threshold of 0.5, the models identified 21 tickers as best performers and 110 tickers as worst performers. This classification allows for targeted investment strategies and portfolio optimization.
+
+This systematic approach ensures a thorough and effective development of a predictive model for financial performance, providing valuable insights for stock or investment selection purposes.
+
 ![image](https://github.com/user-attachments/assets/953057ef-eb92-4791-9d53-d9acf1bd9da1)
 
 ![image](https://github.com/user-attachments/assets/61ac1fda-dbd7-4ea7-988a-b35eebd3f3db)
