@@ -63,7 +63,7 @@ Through these data cleaning and preprocessing steps, we transformed our raw data
 ## Model Building Journey
 The diagram below outlines the structured approach undertaken to develop a predictive model for financial performance, specifically for stock selection. The process is divided into five key stages:
 
-1. abelling the Target Variable: The journey begins by defining the target variable, which is based on forward 3-month returns. Percentile thresholds are established, with the upper (70th percentile) and lower (30th percentile) thresholds calculated for each month’s returns. These thresholds are crucial for categorizing stocks into performance brackets.
+1. Labelling the Target Variable: The journey begins by defining the target variable, which is based on forward 3-month returns. Percentile thresholds are established, with the upper (70th percentile) and lower (30th percentile) thresholds calculated for each month’s returns. These thresholds are crucial for categorizing stocks into performance brackets.
 
 2. Deciding the Rolling Window: A series of rolling windows with various lookback periods (3, 6, 12, 18, 24, 36, and 48 months) were tested to determine the optimal time frame for model performance. The current best-performing window is a combination of 6-month and 36-month lookbacks, achieving a cross-validated AUC score of 76.2%. This stage is critical for identifying the most effective historical data range for accurate predictions.
 
