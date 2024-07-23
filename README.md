@@ -20,6 +20,8 @@ In the quest to construct a robust predictive model, a critical first step is to
 
 
 ![image](https://github.com/user-attachments/assets/470f4e52-e6a8-4f71-a3d2-d8c0cda25aa2)
+![image](https://github.com/user-attachments/assets/33e306d8-3f27-4d9b-814f-970a0b690002)
+
 
 ## Exploratory Data Analysis (EDA)
 
@@ -40,6 +42,11 @@ The insights gained from EDA provide a deeper understanding of the data landscap
 
 ![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
+![image](https://github.com/user-attachments/assets/3b77c078-1c1a-499d-ac35-0b2cf7129cab)
+![image](https://github.com/user-attachments/assets/77a4439a-9cd3-436a-b2d7-4be18826e68d)
+
+
+
 ## Data Cleaning and Preprocessing
 To ensure the accuracy and effectiveness of our machine learning model, we meticulously cleaned and preprocessed the dataset. This process involved several key steps:
 
@@ -59,6 +66,11 @@ Through these data cleaning and preprocessing steps, we transformed our raw data
 ![image](https://github.com/user-attachments/assets/3575aa32-a09e-4dbd-b8bc-83128a478980)
 
 ![image](https://github.com/user-attachments/assets/0c8d50af-5ebf-4199-b162-adca5273745f)
+
+![image](https://github.com/user-attachments/assets/928ac895-7b44-4022-b832-d4102a3fa71b)
+![image](https://github.com/user-attachments/assets/ec381606-c40c-4191-9f99-fdf680fd2e04)
+
+
 
 ## Model Building Journey
 The diagram below outlines the structured approach undertaken to develop a predictive model for financial performance, specifically for stock selection. The process is divided into five key stages:
@@ -100,6 +112,7 @@ The analysis reveals that AUC-ROC scores vary between 0.42 and 0.70 across the s
 ![image](https://github.com/user-attachments/assets/0ce83d95-345b-4979-b5be-cd6c7774cc61)
 
 
+![image](https://github.com/user-attachments/assets/da89b773-f9e6-442a-9473-7945a4ec6f44)
 
 ![image](https://github.com/user-attachments/assets/be5d6d75-0dba-491c-ba0a-ea8defac3a97)
 
