@@ -97,9 +97,8 @@ Feature Importance Trend: The chart illustrates a decreasing trend in feature im
 3. Overall Insights
 The analysis reveals that AUC-ROC scores vary between 0.42 and 0.70 across the six time segments, indicating considerable variability in the model’s predictive accuracy over time. This fluctuation suggests that the model’s effectiveness in predicting "forward 3-month returns" may be influenced by changing market conditions or other temporal factors.
 
+![image](https://github.com/user-attachments/assets/0ce83d95-345b-4979-b5be-cd6c7774cc61)
 
-
-![image](https://github.com/user-attachments/assets/1f855854-4165-4512-b908-8f09a2920d93)
 
 
 ![image](https://github.com/user-attachments/assets/be5d6d75-0dba-491c-ba0a-ea8defac3a97)
