@@ -25,6 +25,22 @@ In the quest to construct a robust predictive model, a critical first step is to
 
 ![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
 
+## Exploratory Data Analysis (EDA)
+
+With the comprehensive dataset in hand, we conducted an exploratory data analysis to uncover meaningful patterns and relationships that can guide our predictive modeling efforts. The EDA focused on several key areas:
+
+1. Sector Information: We began by analyzing the distribution of stocks across different sectors. This provided insights into sector-specific trends and variances. For instance, we identified which sectors showed higher volatility or consistent performance over time. Understanding these patterns is crucial for sector-specific stock selection and risk management.
+
+2. Past 12 Months Returns: We calculated and analyzed the past 12 months' returns for stocks within each sector to assess their performance trends. This analysis helped us identify sectors with strong momentum and those facing challenges. By comparing historical returns, we can pinpoint sectors that have historically outperformed or underperformed the market, which can inform future investment strategies.
+
+3. Correlation Analysis: We performed a correlation analysis to identify relationships between different financial metrics, such as equity_invcap and capital_ratio . This analysis highlighted potential dependencies and interactions between variables, revealing insights into which factors are most closely linked with stock returns. Understanding these correlations allows us to better model the factors driving stock performance.
+
+Autocorrelation Analysis: Finally, we conducted an autocorrelation analysis to examine the persistence of stock returns over time. This analysis helped us identify patterns and predictability in the time series data of stock returns. Recognizing autocorrelations is essential for developing time series models that can better forecast future stock movements.
+
+The insights gained from EDA provide a deeper understanding of the data landscape, highlighting important variables and trends that inform our modeling approach. This analysis lays the groundwork for selecting relevant features and refining our machine learning models, ultimately enhancing our ability to predict future stock performance.
+
+
+
 ![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
 ![image](https://github.com/user-attachments/assets/3575aa32-a09e-4dbd-b8bc-83128a478980)
