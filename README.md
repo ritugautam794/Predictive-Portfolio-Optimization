@@ -37,6 +37,9 @@ The insights gained from EDA provide a deeper understanding of the data landscap
 
 ![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
 
+
+![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
+
 ## Data Cleaning and Preprocessing
 To ensure the accuracy and effectiveness of our machine learning model, we meticulously cleaned and preprocessed the dataset. This process involved several key steps:
 
@@ -52,7 +55,6 @@ To ensure the accuracy and effectiveness of our machine learning model, we metic
 
 Through these data cleaning and preprocessing steps, we transformed our raw data into a well-structured and refined dataset, ready for input into our machine learning models. 
 
-![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
 ![image](https://github.com/user-attachments/assets/3575aa32-a09e-4dbd-b8bc-83128a478980)
 
