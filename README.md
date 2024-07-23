@@ -19,8 +19,6 @@ In the quest to construct a robust predictive model, a critical first step is to
 4. Stock Returns Data: Historical stock returns are crucial for analyzing past performance and estimating future price movements.
 
 
-
-
 ![image](https://github.com/user-attachments/assets/470f4e52-e6a8-4f71-a3d2-d8c0cda25aa2)
 
 ## Exploratory Data Analysis (EDA)
@@ -39,6 +37,20 @@ The insights gained from EDA provide a deeper understanding of the data landscap
 
 ![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
 
+## Data Cleaning and Preprocessing
+To ensure the accuracy and effectiveness of our machine learning model, we meticulously cleaned and preprocessed the dataset. This process involved several key steps:
+
+1. Removal of Duplicates and Irrelevant Columns: We started by identifying and removing duplicate records to prevent redundancy and ensure data integrity. Irrelevant columns that did not contribute to our analysis were also eliminated to streamline the dataset and focus on pertinent variables.
+
+2. Feature Engineering: We enhanced the dataset by creating new features that add value to our analysis. For example, we extracted 'Month' and 'Year' features from the 'Public Date' to facilitate time-series analysis and improve model performance by capturing temporal trends.
+
+3. Scaling: We applied Min-Max scaling to the monthly return data to normalize the range of the features and ensure that they contribute equally to the model training process. This scaling is crucial for models sensitive to the magnitude of input features.
+
+4. Handling Missing Values: Missing values were addressed using several strategies to maintain data quality. We employed custom backfilling techniques. Additionally, where feasible, we filled missing values using data sourced from Yahoo Finance to enrich the dataset. In cases where missing values were unavoidable, we opted to leverage XGBoost's inherent ability to handle missing data, allowing the model to manage these gaps during the training phase.
+
+5. Managing Outliers: Outliers were handled separately using the Z-score method, which involves calculating the standard score for each data point and identifying those that fall outside a specified threshold. These extreme values were addressed to prevent skewed analyses and maintain dataset robustness.
+
+Through these data cleaning and preprocessing steps, we transformed our raw data into a well-structured and refined dataset, ready for input into our machine learning models. 
 
 ![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
