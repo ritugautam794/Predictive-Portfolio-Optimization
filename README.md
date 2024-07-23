@@ -7,16 +7,16 @@ This project aims to construct and manage a multi-asset portfolio using advanced
 
 Streamlining Data Sources to Build One Comprehensive Dataset for ML Model Input
 
-1. Exploring Data Sources
-In the quest to construct a robust predictive model, a critical first step is to gather and integrate diverse datasets that can offer insights into stock performance. Our approach involves collecting a variety of financial and market data from reliable sources such as Yahoo Finance. The key data components include:
+## Exploring Data Sources
+In the quest to construct a robust predictive model, a critical first step is to gather and integrate diverse datasets that can offer insights into stock performance. Our approach involves collecting a variety of financial and market data from reliable sources such as Yahoo Finance. The key data files include:
 
-Company Financial Ratios: These ratios, such as price-to-earnings (P/E), return on equity (ROE), and debt-to-equity (D/E), provide insight into a company's financial health and operational efficiency.
+1. Company Financial Ratios: These ratios, such as price-to-earnings (P/E), return on equity (ROE), and debt-to-equity (D/E), provide insight into a company's financial health and operational efficiency.
 
-Sector Information: Understanding the sector classification of each stock allows us to analyze industry trends and sector-specific dynamics, which can influence stock performance.
+2. Sector Information: Understanding the sector classification of each stock allows us to analyze industry trends and sector-specific dynamics, which can influence stock performance.
 
-Market Capitalization Data: Market cap is a key indicator of a company's size and market value, affecting investment strategies and risk assessment.
+3. Market Capitalization Data: Market cap is a key indicator of a company's size and market value, affecting investment strategies and risk assessment.
 
-Stock Returns Data: Historical stock returns are crucial for analyzing past performance and estimating future price movements.
+4. Stock Returns Data: Historical stock returns are crucial for analyzing past performance and estimating future price movements.
 
 
 
