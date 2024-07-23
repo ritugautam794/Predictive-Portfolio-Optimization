@@ -104,13 +104,50 @@ The analysis reveals that AUC-ROC scores vary between 0.42 and 0.70 across the s
 
 
 
+
+![image](https://github.com/user-attachments/assets/e8cac23c-89d6-4f37-8705-d2e232fc9d76)
+
+## ML-Driven Portfolio Optimization and Performance Analysis
+
+#### Stock Selection
+Machine Learning Model: Employed an XGBoost Classifier to predict top-performing stocks. The model was trained using historical data spanning from 2003 to 2022.
+Feature Selection: The model utilized features such as financial ratios, past returns, and sector information to classify stocks into potential high performers.
+#### Portfolio Construction
+Equity Portfolio: Constructed an equal-weighted portfolio comprising 21 top-performing stocks, with each stock allocated 4.8% of the total portfolio value as of December 31, 2022.
+Metrics Presented: For each stock, the following information was detailed: 
+Market Capitalization (Market-Cap)
+Market Beta
+12-Month Volatility
+
+#### Multi-Asset Allocation
+Diversification: Expanded the portfolio to include not only stocks but also a selection of bond ETFs and commodity ETFs, achieving a balanced multi-asset portfolio.
+#### Optimization
+Objective: The primary goal was to minimize expected volatility while maximizing expected returns.
+Constraints: 1. The stock portion of the portfolio was maintained at a minimum of 50%.
+             2. The bond ETF portion was kept at a minimum of 10%.
+Portfolio Value: Assumed a starting portfolio value of $10 million.
+
+
 ![image](https://github.com/user-attachments/assets/da89b773-f9e6-442a-9473-7945a4ec6f44)
+
+![image](https://github.com/user-attachments/assets/12cd4a26-359a-4661-817e-c123593f461a)
+
 
 ![image](https://github.com/user-attachments/assets/be5d6d75-0dba-491c-ba0a-ea8defac3a97)
 
-![image](https://github.com/user-attachments/assets/69bcd5fa-cc09-4600-b6ee-9123591f4efb)
 
+#### Performance Analysis
+Year-End Performance: Analyzed the portfolio's performance as of December 31, 2023, including a comparison with major indices such as the S&P 500 and TSX 60.
+Return on Investment: Evaluated the year-end profit and loss (P/L) to assess the portfolio’s effectiveness relative to benchmarks.
 
+## Summary
+This project demonstrates how machine learning can be effectively integrated with traditional financial analysis to create a data-driven investment strategy. It includes:
+
+Detailed Portfolio Composition: Breakdown of the selected stocks and their respective metrics.
+Risk Metrics: Analysis of portfolio volatility and expected returns.
+Comparative Performance: Evaluation of portfolio performance against leading market indices.
+
+The combination of XGBoost for stock selection and careful portfolio construction provides a robust framework for achieving optimized financial performance.
 
 
 
