@@ -75,7 +75,8 @@ The diagram below outlines the structured approach undertaken to develop a predi
 
 This systematic approach ensures a thorough and effective development of a predictive model for financial performance, providing valuable insights for stock or investment selection purposes.
 
-![image](https://github.com/user-attachments/assets/953057ef-eb92-4791-9d53-d9acf1bd9da1)
+![image](https://github.com/user-attachments/assets/8b876d02-f531-43d0-844f-ef5065c8ff1a)
+
 
 ![image](https://github.com/user-attachments/assets/61ac1fda-dbd7-4ea7-988a-b35eebd3f3db)
 
