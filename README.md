@@ -23,8 +23,6 @@ In the quest to construct a robust predictive model, a critical first step is to
 
 ![image](https://github.com/user-attachments/assets/470f4e52-e6a8-4f71-a3d2-d8c0cda25aa2)
 
-![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
-
 ## Exploratory Data Analysis (EDA)
 
 With the comprehensive dataset in hand, we conducted an exploratory data analysis to uncover meaningful patterns and relationships that can guide our predictive modeling efforts. The EDA focused on several key areas:
@@ -39,6 +37,7 @@ Autocorrelation Analysis: Finally, we conducted an autocorrelation analysis to e
 
 The insights gained from EDA provide a deeper understanding of the data landscape, highlighting important variables and trends that inform our modeling approach. This analysis lays the groundwork for selecting relevant features and refining our machine learning models, ultimately enhancing our ability to predict future stock performance.
 
+![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
 
 
 ![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
