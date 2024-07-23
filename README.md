@@ -19,7 +19,7 @@ In the quest to construct a robust predictive model, a critical first step is to
 4. Stock Returns Data: Historical stock returns are crucial for analyzing past performance and estimating future price movements.
 
 
-![image](https://github.com/user-attachments/assets/470f4e52-e6a8-4f71-a3d2-d8c0cda25aa2)
+
 ![image](https://github.com/user-attachments/assets/33e306d8-3f27-4d9b-814f-970a0b690002)
 
 
@@ -36,11 +36,6 @@ With the comprehensive dataset in hand, we conducted an exploratory data analysi
 4. Autocorrelation Analysis: Finally, we conducted an autocorrelation analysis to examine the persistence of stock returns over time. This analysis helped us identify patterns and predictability in the time series data of stock returns. Recognizing autocorrelations is essential for developing time series models that can better forecast future stock movements.
 
 The insights gained from EDA provide a deeper understanding of the data landscape, highlighting important variables and trends that inform our modeling approach. This analysis lays the groundwork for selecting relevant features and refining our machine learning models, ultimately enhancing our ability to predict future stock performance.
-
-![image](https://github.com/user-attachments/assets/7fad94e1-c62c-4455-9760-173a3b25e230)
-
-
-![image](https://github.com/user-attachments/assets/f4688d1a-021b-4eaf-b2a6-d4da9bae40b1)
 
 ![image](https://github.com/user-attachments/assets/3b77c078-1c1a-499d-ac35-0b2cf7129cab)
 ![image](https://github.com/user-attachments/assets/77a4439a-9cd3-436a-b2d7-4be18826e68d)
@@ -63,9 +58,7 @@ To ensure the accuracy and effectiveness of our machine learning model, we metic
 Through these data cleaning and preprocessing steps, we transformed our raw data into a well-structured and refined dataset, ready for input into our machine learning models. 
 
 
-![image](https://github.com/user-attachments/assets/3575aa32-a09e-4dbd-b8bc-83128a478980)
 
-![image](https://github.com/user-attachments/assets/0c8d50af-5ebf-4199-b162-adca5273745f)
 
 ![image](https://github.com/user-attachments/assets/928ac895-7b44-4022-b832-d4102a3fa71b)
 ![image](https://github.com/user-attachments/assets/ec381606-c40c-4191-9f99-fdf680fd2e04)
@@ -109,7 +102,6 @@ Feature Importance Trend: The chart illustrates a decreasing trend in feature im
 3. Overall Insights
 The analysis reveals that AUC-ROC scores vary between 0.42 and 0.70 across the six time segments, indicating considerable variability in the model’s predictive accuracy over time. This fluctuation suggests that the model’s effectiveness in predicting "forward 3-month returns" may be influenced by changing market conditions or other temporal factors.
 
-![image](https://github.com/user-attachments/assets/0ce83d95-345b-4979-b5be-cd6c7774cc61)
 
 
 ![image](https://github.com/user-attachments/assets/da89b773-f9e6-442a-9473-7945a4ec6f44)
