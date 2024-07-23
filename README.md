@@ -33,7 +33,7 @@ With the comprehensive dataset in hand, we conducted an exploratory data analysi
 
 3. Correlation Analysis: We performed a correlation analysis to identify relationships between different financial metrics, such as equity_invcap and capital_ratio . This analysis highlighted potential dependencies and interactions between variables, revealing insights into which factors are most closely linked with stock returns. Understanding these correlations allows us to better model the factors driving stock performance.
 
-Autocorrelation Analysis: Finally, we conducted an autocorrelation analysis to examine the persistence of stock returns over time. This analysis helped us identify patterns and predictability in the time series data of stock returns. Recognizing autocorrelations is essential for developing time series models that can better forecast future stock movements.
+4. Autocorrelation Analysis: Finally, we conducted an autocorrelation analysis to examine the persistence of stock returns over time. This analysis helped us identify patterns and predictability in the time series data of stock returns. Recognizing autocorrelations is essential for developing time series models that can better forecast future stock movements.
 
 The insights gained from EDA provide a deeper understanding of the data landscape, highlighting important variables and trends that inform our modeling approach. This analysis lays the groundwork for selecting relevant features and refining our machine learning models, ultimately enhancing our ability to predict future stock performance.
 
